@@ -52,10 +52,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service
 
-# Flat device tree for boot image
-PRODUCT_PACKAGES += \
-    dtbhtoolExynos
-
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl
@@ -102,12 +98,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl
 
-# Mobicore
-PRODUCT_PACKAGES += \
-    mcDriverDaemon \
-    libMcClient \
-    libMcRegistry
-
 # Power
 PRODUCT_PACKAGES += \
     power.universal7580 \
@@ -140,10 +130,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # SEC
 PRODUCT_PACKAGES += \
     libsecnativefeature
@@ -163,7 +149,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_client_shim \
     libexynoscamera_shim \
-    libExynosOMX_shim \
     libstagefright_shim \
     libui_shim
 
